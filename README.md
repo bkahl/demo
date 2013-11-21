@@ -117,6 +117,6 @@ images
 2. Top/Sub Bar current DOM structure would need to be changed to match Bootstrap's.
 
 ### Summary
-I think it's too early to decide which to go with due to not prototyping Foundation 4 and Bootstrap 3's Block and Fluid grid layout.
+I think it's too early to decide which to go with due to not prototyping Foundation 4 and Bootstrap 3's Block and Fluid grid layout, which is why these frameworks are used in the first place.
 Currently, I think we could leverage either or, but it all depends on our redesign descision.  Ultimately we should leverage the framework 
 that works easiest/best with our design goal.
