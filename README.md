@@ -6,6 +6,7 @@ UI/assets
    ├── fonts
    ├── javascripts
    │   ├── vendor
+   │   │   └── bootstrap/foundation
    │   └── app
    ├── sass
    │   ├── images
