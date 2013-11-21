@@ -1,5 +1,7 @@
-Asset Pipeline Structure
+Steps for Standardizing Vision
 ====
+
+## Asset Pipline Structure
 
 ```UI/assets
 UI/assets
@@ -35,3 +37,14 @@ UI/assets
    ├── config.rb
    └── index.html  #styleguide reference based off of the generated default.css 
 ```
+
+## Sprites
+```Sprites
+images
+   └─ default #selected theme
+      ├── logo-icon.png
+      ├── top-bar-help.png
+      ├── sub-bar-data.png
+      ├── sub-bar-visulizations.png
+      ├── sub-bar-sharing.png
+      └── sub-bar-about.png
