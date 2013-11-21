@@ -20,6 +20,9 @@ UI/assets
    │   │    │   ├── _buttons.scss
    │   │    │   ├── _navbar.scss
    │   │    │   └── _dropdown.scss
+   │   │    ├── sections
+   │   │    │   ├── _accounts.scss
+   │   │    │   └── _users.scss
    │   │    ├── _base.scss
    │   │    ├── _images.scss
    │   │    ├── _fonts.scss
