@@ -1,34 +1,29 @@
-demo
+Asset Pipeline Structure
 ====
-```styles
-├── components
-│   ├── comments.scss
-│   └── listings.scss
-├── globals
-│   ├── browser_helpers.scss
-│   ├── responsive_helpers.scss
-│   ├── variables.scss
-├── plugins
-│   ├── jquery.fancybox-1.3.4.css
-│   └── reset.scss
-├── sections
-│   ├── issues.scss
-│   ├── profile.scss
-└── shared
-    ├── forms.scss
-    └── markdown.scss
-```
 
 ```UI/assets
-|-- fonts
-|-- javascripts
-| |-- vendor
-|   |-- bourbon
-|   |-- foundation/bootstrap
-|   
-|	|-- images
-|	|-- css
-|		|-- style.css
-|	|-- js
-|	|-- index.html
+├── fonts
+├── javascripts
+│   ├── vendor
+│   └── app
+├── sass
+│   ├── images
+│   │   └── default
+│   ├── vendor
+│   │   ├── bourbon
+│   │   ├── sassy-buttons
+│   │   └── bootstrap/foundation
+│   ├── partials
+│   │    ├── components
+│   │    │   ├── _buttons.scss
+│   │    │   ├── _navbar.scss
+│   │    │   └── _dropdown.scss
+│   │    ├── _base.scss
+│   │    ├── _fonts.scss
+│   │    ├── _globals.scss
+│   │    └── _mixins.scss
+│   ├── _variables.scss
+│   └── default.scss
+└── stylesheets
+    └── default.css
 ```
