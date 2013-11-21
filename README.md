@@ -39,6 +39,7 @@ UI/assets
 ```
 
 ## Sprites
+### Structure
 ```Sprites
 images
    └─ default #selected theme
@@ -48,6 +49,51 @@ images
       ├── sub-bar-visulizations.png
       ├── sub-bar-sharing.png
       └── sub-bar-about.png
+```
+
+### How to Use
+```html
+/*_images.scss*/
+@import "default/*.png";
+```
+
+```html
+/*_navbar.scss*/
+.navbar {
+	&.logo {
+		&:before {
+			@include default-sprite(logo-icon);	
+		}
+	}
+	&.help {
+		&:before {
+			@include default-sprite(top-bar-help);	
+		}
+	}
+	&.data {
+		&:before {
+			@include default-sprite(sub-bar-data);	
+		}
+	}
+	
+	&.viz {
+		&:before {
+			@include default-sprite(sub-bar-visulizations);	
+		}
+	}
+
+	&.sharing {
+		&:before {
+			@include default-sprite(sub-bar-sharing);	
+		}
+	}
+
+	&.about {
+		&:before {
+			@include default-sprite(sub-bar-about);	
+		}
+	}
+}
 ```
 
 ## Foundation Pros and Cons
