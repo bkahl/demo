@@ -98,7 +98,7 @@ images
 
 ## Foundation 4 Pros and Cons
 ### Pros
-1. Top/Sub Bar current DOM structure follows namespace.
+1. Top/Sub Bar current DOM structure follows namespace and wouldn't need to be changed.
 2. Namespace is simpliar.
 
 ### Cons
@@ -114,6 +114,7 @@ images
 
 ### Cons
 1. Namespace more complex.
+2. Top/Sub Bar current DOM structure would need to be changed to match Bootstrap's.
 
 ### Summary
 I think it's too early to decide which to go with due to not prototyping Foundation 4 and Bootstrap 3's Block and Fluid grid layout.
