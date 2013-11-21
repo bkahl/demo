@@ -12,7 +12,7 @@ UI/assets
    │   ├── images
    │   │   └── default
    │   ├── vendor
-   │   ├── bourbon
+   │   │   ├── bourbon
    │   │   ├── sassy-buttons
    │   │   └── bootstrap/foundation
    │   ├── partials
