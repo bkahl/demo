@@ -1,6 +1,6 @@
 demo
 ====
-<code>styles
+```styles
 ├── components
 │   ├── comments.scss
 │   └── listings.scss
@@ -17,7 +17,7 @@ demo
 └── shared
     ├── forms.scss
     └── markdown.scss
-</code>
+```
 
 ```UI/assets
 |-- fonts
