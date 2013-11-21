@@ -100,7 +100,6 @@ images
 ### Pros
 1. Top/Sub Bar current DOM structure follows namespace and wouldn't need to be changed.
 2. Namespace is simpliar.
-
 ### Cons
 1. Less active community
 3. Uses EM's vs Pixels.
@@ -111,7 +110,6 @@ images
 1. Easy to leverage/manipulate with ease.
 2. Default global variables more intuitive.
 3. More active community.
-
 ### Cons
 1. Namespace more complex.
 2. Top/Sub Bar current DOM structure would need to be changed to match Bootstrap's.
