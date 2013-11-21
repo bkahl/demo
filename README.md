@@ -28,8 +28,7 @@ UI/assets
    │   ├── _variables.scss
    │   └── default.scss
    ├── stylesheets
-   │   └── default.css
-   │
+   │   └── default.css // generated master.css file
    ├── config.rb
-   └── index.html
+   └── index.html  // styleguide reference based off of the generated default.css 
 ```
