@@ -22,16 +22,16 @@ UI
    ├── themes
    │   └── vision
    │	    ├── fonts
-   │   	    ├── images
-   │   	    ├── partials
-   │        ├── _base.scss
-   │        ├── _colors.scss
-   │        ├── _pallette.scss
-   │        ├── _images.scss
-   │        ├── _fonts.scss
-   │        ├── _variables.scss #overwrite default variables listed above
-   │        ├── vision.scss
-   │        └── config.rb
+│   	    ├── images
+│   	    ├── partials
+│        ├── _base.scss
+│        ├── _colors.scss
+│        ├── _pallette.scss
+│        ├── _images.scss
+│        ├── _fonts.scss
+│        ├── _variables.scss #overwrite default variables listed above
+│        ├── vision.scss
+│        └── config.rb
    ├── stylesheets
    │   └── vision.css #generated master.css file from selected theme
    └── index.html  #styleguide reference based off of the generated default.css 
