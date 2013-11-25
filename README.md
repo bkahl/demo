@@ -4,19 +4,10 @@ Steps for Standardizing Vision
 ## Asset Pipline Structure
 
 ```UI/assets
-UI/assets
-   ├── fonts
+UI
    ├── javascripts
-   │   ├── vendor
-   │   │   └── bootstrap/foundation
    │   └── app
    ├── sass
-   │   ├── images
-   │   │   └── default
-   │   ├── vendor
-   │   │   ├── bourbon
-   │   │   ├── sassy-buttons
-   │   │   └── bootstrap/foundation
    │   ├── partials
    │   │    ├── components
    │   │    │   ├── _buttons.scss
@@ -25,19 +16,27 @@ UI/assets
    │   │    ├── sections
    │   │    │   ├── _accounts.scss
    │   │    │   └── _users.scss
-   │   │    ├── _base.scss
-   │   │    ├── _images.scss
-   │   │    ├── _fonts.scss
    │   │    ├── _globals.scss
    │   │    └── _mixins.scss
-   │   ├── _variables.scss
-   │   └── default.scss
+   │   └── _variables.scss
+   ├── themes
+   │   └── vision
+   │	    ├── fonts
+   │   	    ├── images
+   │   	    ├── partials
+   │        ├── _base.scss
+   │        ├── _colors.scss
+   │        ├── _pallette.scss
+   │        ├── _images.scss
+   │        ├── _fonts.scss
+   │        ├── _variables.scss #overwrite default variables listed above
+   │        ├── vision.scss
+   │        └── config.rb
    ├── stylesheets
-   │   └── default.css #generated master.css file
-   ├── config.rb
+   │   └── vision.css #generated master.css file from selected theme
    └── index.html  #styleguide reference based off of the generated default.css 
 ```
-
+   
 ## Sprites
 ### Structure
 ```Sprites
