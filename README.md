@@ -5,36 +5,36 @@ Steps for Standardizing Vision
 
 ```UI/assets
 UI
-   ├── javascripts
-   │   └── app
-   ├── sass
-   │   ├── partials
-   │   │    ├── components
-   │   │    │   ├── _buttons.scss
-   │   │    │   ├── _navbar.scss
-   │   │    │   └── _dropdown.scss
-   │   │    ├── sections
-   │   │    │   ├── _accounts.scss
-   │   │    │   └── _users.scss
-   │   │    ├── _globals.scss
-   │   │    └── _mixins.scss
-   │   └── _variables.scss
-   ├── themes
-   │   └── vision
-   │        ├── fonts
-   │        ├── images
-   │        ├── partials
-   │        ├── _base.scss
-   │        ├── _colors.scss
-   │        ├── _pallette.scss
-   │        ├── _images.scss
-   │        ├── _fonts.scss
-   │        ├── _variables.scss #overwrite default variables listed above
-   │        ├── vision.scss
-   │        └── config.rb
-   ├── stylesheets
-   │   └── vision.css #generated master.css file from selected theme
-   └── index.html  #styleguide reference based off of the generated default.css 
+├── javascripts
+│   └── app
+├── sass
+│   ├── partials
+│   │    ├── components
+│   │    │   ├── _buttons.scss
+│   │    │   ├── _navbar.scss
+│   │    │   └── _dropdown.scss
+│   │    ├── sections
+│   │    │   ├── _accounts.scss
+│   │    │   └── _users.scss
+│   │    ├── _globals.scss
+│   │    └── _mixins.scss
+│   └── _variables.scss
+├── themes
+│   └── vision
+│        ├── fonts
+│        ├── images
+│        ├── partials
+│        ├── _base.scss
+│        ├── _colors.scss
+│        ├── _pallette.scss
+│        ├── _images.scss
+│        ├── _fonts.scss
+│        ├── _variables.scss #overwrite default variables listed above
+│        ├── vision.scss
+│        └── config.rb
+├── stylesheets
+│   └── vision.css #generated master.css file from selected theme
+└── index.html  #styleguide reference based off of the generated default.css 
 ```
    
 ## Sprites
